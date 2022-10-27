@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(210, 36%, 96%);
+}
+
+.container {
+}
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+.grocery-form h3 {
+  text-align: center;
+}
+
+#grocery {
+  padding: 0.25rem;
+  padding-left: 1rem;
+  border-color: transparent;
+  font-size: 1rem;
+  flex: 1 0 auto;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  background-color: hsl(210, 36%, 96%);
+}
+
+.grocery-title {
+  color: hsl(205, 86%, 17%);
+  font-size: 1.75rem;
+  letter-spacing: 0.25rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 1.75rem;
+}
+
+#grocery::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(210, 22%, 49%);
+}
+
+.alert {
+  border-radius: 0.25rem;
+}
+
+.submit-btn {
+  border-color: transparent;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  align-items: center;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  background: hsl(205, 86%, 81%);
+}
+.submit-btn:hover {
+  background: #49a6e9;
+  color: #fff;
+}
+
+.show-container {
+  /* visibility: hidden; */
+}
+
+.edit-btn {
+  border: none;
+  color: hsl(125, 71%, 66%);
+  background: transparent;
+}
+
+.delete-btn {
+  border: none;
+  color: hsl(360, 71%, 66%);
+  background: transparent;
+}
+
+.clear-btn {
+  width: 10rem;
+  height: 1.5rem;
+  font-size: 0.85rem;
+  background: transparent;
+  border-color: transparent;
+  letter-spacing: 0.25rem;
+  color: hsl(360, 71%, 66%);
+}
